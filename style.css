@@ -1,0 +1,109 @@
+body {
+    font-family: 'Manrope', sans-serif; /* Définit la police principale */
+    font-size: 1em; /* Définit la taille du texte de base */
+    background-color: #1f2039; /* Définit la couleur de fond sombre */
+    margin: 0; /* Supprime les marges par défaut */
+    padding-top: 60px; /* Évite que la navbar fixe ne cache le contenu */
+}
+
+/* Conteneur principal pour centrer le contenu */
+.container {
+    width: 80%; /* Définit une largeur de 80% */
+    margin: auto; /* Centre le contenu horizontalement */
+}
+
+/* Style de la navbar */
+nav {
+    background-color: #8e86b5; /* Définit la couleur de fond de la barre de navigation */
+    padding: 10px 0; /* Ajoute un espace intérieur en haut et en bas */
+    text-align: center; /* Centre le texte horizontalement */
+    position: fixed; /* Fixe la barre en haut de la page */
+    width: 100%; /* Étire la barre sur toute la largeur */
+    top: 0; /* La fixe en haut de la page */
+    left: 0; /* L'aligne à gauche */
+
+}
+
+nav ul {
+    list-style: none; /* Supprime les puces des listes */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 20px; /* Ajoute un espace entre les éléments */
+}
+
+nav ul li {
+    display: inline; /* Affiche les éléments en ligne */
+}
+
+nav ul li a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #f9f8ff; /* Définit une couleur claire pour le texte */
+    font-size: 18px; /* Définit la taille du texte */
+    font-weight: bold; /* Rend le texte en gras */
+    padding: 10px 15px; /* Ajoute un espace intérieur */
+    border-radius: 5px; /* Arrondit les bords */
+}
+
+nav ul li a:hover {
+    background-color: #a5b4fc; /* Change la couleur au survol */
+    color: black; /* Change la couleur du texte */
+}
+
+/* Style du header */
+header {
+    font-size: 19px;
+    color: #a5b4fc; /* Définit la couleur du texte */
+    text-align: center; /* Centre le texte */
+    font-family: 'Montserrat', sans-serif; /* Définit une police différente */
+    padding: 20px; /* Ajoute un espace intérieur */
+}
+
+/* Style des titres */
+h2 {
+    border: 1px solid; /* Ajoute une bordure */
+    background-color: #8e86b5; /* Ajoute une couleur de fond */
+    color: black; /* Définit la couleur du texte */
+    text-align: center; /* Centre le texte */
+    font-size: 30px; /* Définit la taille du texte */
+    padding: 10px; /* Ajoute un espace intérieur */
+    border-radius: 8px; /* Arrondit les bords */
+}
+
+/* Sous-titres */
+h5 {
+    font-size: 25px;
+    color: #f9f8ff;
+}
+
+/* Style des paragraphes */
+p {
+    font-size: 1.1em;
+    color: #f9f8ff;
+    margin-top: 5px;
+    line-height: 1.5; /* Définit l'espacement entre les lignes */
+}
+
+/* Mise en valeur des noms */
+strong {
+    color: #a5b4fc;
+    font-style: normal;
+}
+
+/* Bouton interactif */
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #008CFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #7F00FF;
+}
